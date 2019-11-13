@@ -1,3 +1,3 @@
-CREATE SCHEMA `examen` ;
-CREATE USER 'examen'@'127.0.0.1' IDENTIFIED BY 'essenHypB4nk';
-GRANT ALL ON examen.* TO 'examen'@'127.0.0.1';
+CREATE SCHEMA `prueba` ;
+CREATE USER 'pru'@'127.0.0.1' IDENTIFIED WITH mysql_native_password BY '12345';
+GRANT ALL ON prueba.* TO 'pru'@'127.0.0.1';

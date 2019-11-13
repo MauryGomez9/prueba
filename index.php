@@ -38,11 +38,11 @@ case "home":
     //llamar al controlador
     include_once "controllers/home.control.php";
     die();
-case "examenlist":
-    include_once "controllers/examenlist.control.php";
+case "pruebalist":
+    include_once "controllers/pruebalist.control.php";
     die();
-case "examenform":
-    include_once "controllers/examenform.control.php";
+case "pruebaform":
+    include_once "controllers/pruebaform.control.php";
     die();
 }
 
